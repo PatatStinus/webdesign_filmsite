@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+$font-stack: 'Roboto', sans-serif;
+$color-primary: white;
+$color-bg: #4A47A3;
+$color-header: #413C69;
+$color-featured: #A7C5EB;
+
+body {
+    background-color: $color-bg;
+    font-family: $font-stack;
+    margin: 0;
+}
+
+header {
+    padding: 0 200px;
+    display: flex;
+    background-color: $color-header;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+.brand {
+    color: #ffffff;
+    font-size: 34px;
+    margin-left: -100px;
+}
+
+nav {
+    ul {
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+        padding: 0;
+    }
+    li {
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+        color: $color-primary;
+        font-size: 24px;
+    }
+    .searchbar {
+        position: relative;
+        padding-top: 4px;
+        img {
+            position: absolute;
+            width: 18px;
+            height: 18px;
+            padding-top: 2px;
+            padding-left: 3px;
+        }
+    }
+}
+
+.featured {
+    padding: 0 100px;
+    background-color: $color-featured;
+    height: 50vh;
+    color: $color-primary;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .featuredtext
+    {
+        h4 { //Featured Movie text
+            font-size: 20px;
+            margin-top: -50px;
+            font-weight: bold;
+        }
+        h1 { //Titel film
+            font-size: 70px;
+            font-weight: bold;
+        }
+        h2 { //Info persoon
+            font-size: 25px;
+            font-weight: bold;
+        }
+        p { //Beschrijving film
+            font-size: 20px;
+            max-width: 700px;
+            word-wrap: break-word;
+        }
+        button {
+            background-color: #8c8c8c38;
+            margin-top: 20px;
+            font-size: 25px;
+            color: white;
+            width: 130px;
+            height: 50px;
+        }
+    }
+    img {
+        width: 210px;
+        height: 400px;
+    }
+}
