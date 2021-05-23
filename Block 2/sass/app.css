@@ -63,7 +63,7 @@ nav .searchbar img {
 .featured {
   padding: 0 100px;
   background-color: #A7C5EB;
-  height: 50vh;
+  height: 47vh;
   color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -78,7 +78,7 @@ nav .searchbar img {
 
 .featured .featuredtext h4 {
   font-size: 20px;
-  margin-top: -50px;
+  margin-top: -40px;
   font-weight: bold;
 }
 
@@ -88,6 +88,7 @@ nav .searchbar img {
 }
 
 .featured .featuredtext h2 {
+  margin-top: -30px;
   font-size: 25px;
   font-weight: bold;
 }
@@ -100,7 +101,7 @@ nav .searchbar img {
 
 .featured .featuredtext button {
   background-color: #8c8c8c38;
-  margin-top: 20px;
+  margin-top: 50px;
   font-size: 25px;
   color: white;
   width: 130px;
@@ -110,5 +111,21 @@ nav .searchbar img {
 .featured img {
   width: 210px;
   height: 400px;
+}
+
+.topmovies h2 {
+  padding: 45px 100px;
+  font-size: 40px;
+}
+
+.topmovies nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 500px;
+  padding: 0;
 }
 /*# sourceMappingURL=app.css.map */

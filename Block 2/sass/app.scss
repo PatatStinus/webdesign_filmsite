@@ -58,7 +58,7 @@ nav {
 .featured {
     padding: 0 100px;
     background-color: $color-featured;
-    height: 50vh;
+    height: 47vh;
     color: $color-primary;
     display: flex;
     justify-content: space-between;
@@ -67,7 +67,7 @@ nav {
     {
         h4 { //Featured Movie text
             font-size: 20px;
-            margin-top: -50px;
+            margin-top: -40px;
             font-weight: bold;
         }
         h1 { //Titel film
@@ -75,6 +75,7 @@ nav {
             font-weight: bold;
         }
         h2 { //Info persoon
+            margin-top: -30px;
             font-size: 25px;
             font-weight: bold;
         }
@@ -85,7 +86,7 @@ nav {
         }
         button {
             background-color: #8c8c8c38;
-            margin-top: 20px;
+            margin-top: 50px;
             font-size: 25px;
             color: white;
             width: 130px;
@@ -95,5 +96,20 @@ nav {
     img {
         width: 210px;
         height: 400px;
+    }
+}
+
+.topmovies {
+    h2 {
+        padding: 45px 100px;
+        font-size: 40px;
+    }
+    nav {
+        ul {
+            display: flex;
+            justify-content: space-between;
+            width: 500px;
+            padding: 0;
+        }
     }
 }
